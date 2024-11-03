@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.course-status {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  color: #64748b;
+  font-weight: 300;
+}
+
+.course-status .active {
+  font-weight: 700;
+  color: #334155;
+}
+
+.course-item {
+  padding: 0.9rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.course-item__detail {
+  flex: 1;
+  justify-self: start;
+  padding: 1rem 0 1rem 1rem;
+}
+
+.course-item__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+
+.course-item__body .title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.course-item__body .desc {
+  font-size: 0.9rem;
+  color: #7c7c7c;
+}
+
+.course-item__body .rate {
+  white-space: nowrap;
+}
+
+.course-item__img img {
+  width: 15rem;
+  height: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.course-item__footer .tags {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.course-item__footer .caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-item__footer .date {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.course-item__footer .caption .badge {
+  font-weight: bold;
+}

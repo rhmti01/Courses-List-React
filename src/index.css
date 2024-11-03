@@ -1,0 +1,39 @@
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: #f7f7f7;
+}
+
+p {
+  text-align: left;
+}
+
+.badge {
+  white-space: nowrap;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.6rem;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.badge--primary {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+.badge--secondary {
+  background-color: #f1f5f9;
+  color: #334155;
+}
+
+.badge--danger {
+  background-color: #ffedd5;
+  color: #c2410c;
+}
