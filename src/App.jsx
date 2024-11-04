@@ -34,9 +34,11 @@ import "./App.css";
 //   },
 // ];
 
-
-function App() {
-  return <h1 className="">01-CourseList-project: starter file</h1>;
+export default function App() {
+  return (
+    <div className="w-full bg-red-400/ flex items-center justify-center my-5 " >
+      <h1 className=" text-[70px] font-light mx-auto  font-sans ">01-CourseList-project: starter file</h1>
+    </div>
+  );
 }
 
-export default App;
