@@ -6,7 +6,10 @@ module.exports = {
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
   ],
-  parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+"parserOptions": {
+  // Required for certain syntax usages
+  "ecmaVersion": 2020
+},
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
