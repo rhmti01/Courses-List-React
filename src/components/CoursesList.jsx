@@ -37,15 +37,14 @@ const courses = [
 ];
 
 
-function CoursesList() {
+const CoursesList = () => {
   return (
-    <section className=" w-[800px] bg-red-400/ mt-16 flex items-center justify-center flex-col gap-y-4 mb-20 "  >
+    <section className=" w-[800px] bg-red-400/ mt-16 flex items-center justify-center flex-col gap-y-4 mb-10 "  >
       {courses.map((course) => {
           return <CourseCard key={course.id} course={course} />
         })}
     </section>
   )
 }
-
 
 export default CoursesList;  
